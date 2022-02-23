@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device-width",intial-scale=1.0>
+    <title> All Products |Kasi Road House</title>
+      <link rel="stylesheet" href="index.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">   </head>
+       <body>
+           <div class="header">
+              <div class="container" >
+                  <div class="navbar">
+                     <div class="logo">
+                               <a href="index.html"><img src="logo.jpg"width ="125px"></a>
+                     </div>
+                       
+                           <nav>
+                            <ul id="MenuIterms"> 
+                                <li><a href="index.html">Home</a></li> 
+                                <li><a href="products.html">Menu</a></li> 
+                                <li><a href="about.html">About</a></li> 
+                                <li><a href="contact.html">Contact</a></li> 
+                            </ul>
+                           </nav>
+                          <img src="menu.png"class="menu-icon"onclick="menutoggle()" >
+                  </div>      
+             </div>
+             <!-----------single product details------>
+            
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+        <img src="ice cream.png" width="70%">
+    </div class="col-2">
+    <p>Home /ICE|CREAM</p>
+    <h2> PRICING </h2>
+    <h3> <br>   Cone :   R6 <br> cup :   R10 <br> Special :   R20</h3>
+  <br>
+  <h2> ingredients : <br><p>Variety of Flavours, Chocolate  Flake</p></h2>
+   
+    <div>
+
+    </div>
+    </div>
+</div>
+
+
+         <div class="small-conatiner">
+         <div class="row">
+         </div>
+            <div class="row row-2">
+                <div class="col-1">
+                  <a href="productdetails.html"> <img src="wings.jpg"></a>
+                    <h4>CHICKEN|WINGS</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>CLICK PICTURE FOR A DETAILED MENU AND PRICING</p>
+                </div>
+                <div class="col-1">
+                   <a href="pruduct kota.html"><img src="Pic2.png"></a>
+                    <h4>KOTA|ORIGINAL</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>CLICK PICTURE FOR A DETAILED MENU AND PRICING</p>
+                </div>
+                <div class="col-1">
+                   <a href="product slush.html"><img src="slush.png"></a>
+                    <h4>SLUSH</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>CLICK PICTURE FOR A DETAILED MENU AND PRICING</p>
+                </div>
+                <div class="col-1">
+                    <a href="product burger.html"><img src="burger.jpg"></a>
+                    <h4>BEEF|BURGER</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>CLICK PICTURE FOR A DETAILED MENU AND PRICING</p>
+                </div>
+                
+                
+            </div>
+               
+               
+         </div>
+     </div>
+        
+        </div>
+        <a href="https://wa.me/+27681739383" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+         
+         <!--------footer------->
+       <div class="footer">
+           <div class="container">
+               <div class="row">
+                 
+                 <div class="footer-col-2">
+                   <img src="logo.jpg">
+                    <P>our purpose is to bring the best service and provide the best taste </P>
+  
+                </div>
+                
+                 <div class="footer-col-4">
+                         <h3>follow us></h3>
+                               <ul>
+                                <li>facebook</li>
+                                <a href="https://www.facebook.com/Kasi-road-house-103027484866510/" target="_black">><ion-icon name="logo-facebook"></ion-icon></a>
+                                <li>twitter</li>
+                               <ion-icon name="logo-twitter"></ion-icon>
+                                <li>instagram</li>
+                                <a href="https://www.instagram.com/kasi_road_house" target="_blank"> <ion-icon name="logo-instagram"></ion-icon></a> 
+                             </ul>
+
+                 </div>                                                                
+            </div>
+
+         </div>
+         <hr>
+         <p class="copyright">copyright 2022 - website </p>
+     </div>
+     <!-----------js for toggle menu-->
+     <script>
+         var MenuIterms = document.getElementById("MenuIterms");
+         MenuIterms.style.maxHeight="0px"; 
+         function menutoggle(){
+             if (MenuIterms.style.maxHeight=="0px")
+             {
+                 MenuIterms.style.maxHeight="200px";
+             }
+             else
+             {
+                 MenuIterms.style.maxHeight="0px";
+             }
+
+         }
+         </script>
+         </body>
+      </html>
